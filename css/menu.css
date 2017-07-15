@@ -1,0 +1,132 @@
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    min-height:100vh;
+}
+#nested{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 360px;
+}
+
+.foldable__item {
+    background-color: transparent;
+    padding: 15px
+}
+.foldable__item--horizontal {
+    padding: 0;
+    position: relative;
+    width: 100%
+}
+
+
+
+/*
+
+.foldable {
+    border-radius: 3px;
+    margin: 0 auto 50px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.foldable__label {
+    color: #555;
+    color: #ff2956;
+    display: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: right;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.nav-options {
+    margin-bottom: 20px
+}
+.nav-options__list {
+    -ms-flex-align: center;
+    -ms-flex-flow: row wrap;
+    -ms-flex-pack: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 1px
+background-color: transparent;
+}
+.nav-options__list:last-child {
+    margin-bottom: 0
+}
+.nav-options__list.animation-nav {
+    margin-bottom: 20px
+}
+.nav-options__label {
+    color: #999;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+*/
+
+
+#nestwedmenu-frame{
+    position: absolute;
+    width: 360px;
+    height: 100px;
+    right: 0;
+    bottom: 52px;
+    z-index:999;
+    display: block;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: transparent;
+    border: 0;
+    padding: 0;
+}
+
+#api-frame {
+
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#hidelogoup{
+    position: absolute;
+    width: 100%;
+    height: 52px;
+    background: #ffffff;
+    left: 0;
+    top: 0;
+    z-index:999;
+    display: block;
+}
+
+#hidelogodown{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background: #ffffff;
+    left: 0;
+    bottom: 0;
+    z-index:1000;
+    display: block;
+}
